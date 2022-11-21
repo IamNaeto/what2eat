@@ -226,7 +226,7 @@
   line-height: 20px;
   letter-spacing: -0.012em;
   color: #929292;
-  margin: 80px 0px 80px 600px;
+  margin: 80px 0px 80px 650px;
 }
 .thirdsection button:hover {
   color: #ffffff;
@@ -408,7 +408,508 @@ footer .foot-end p {
   padding-top: 20px;
   text-align: center;
 }
+@media screen and (max-width: 1310px) {
+  .firstsection {
+    background-color: #1ac073;
+    height: 500px;
+  }
+  .firstsection header {
+    margin: 0px 20px;
+  }
+/* Main Styling */
+.firstsection main .left h1 {
+  font-size: 37px;
+  line-height: 65px;
+  color: #ffffff;
+  width: 300px;
+}
+.firstsection main .left p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 350px;
+  height: 40px;
+  margin: 10px 0px;
+}
+.firstsection main .left form input:nth-child(1) {
+  width: 220px;
+  height: 50px;
+}
+.firstsection main .right img {
+  width: 300px;
+  height: 250px;
+  margin-top: 20px;
+}
 
+/* Third-Section Styling */
+.thirdsection {
+  background-color: #f7f8fa;
+  height: 600px;
+}
+.thirdsection .container .flex-box {
+  margin: 10px;
+  background-color: #ffffff;
+  padding-bottom: 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+.thirdsection .container .flex-box > img {
+  width: 160px;
+  height: 140px;
+}
+.thirdsection .container .flex-box h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.thirdsection .container .flex-box h2 span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.thirdsection .container .flex-box h3 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.thirdsection .container .flex-box h3 span {
+  background: #bebebe;
+  padding: 3px;
+  border-radius: 5px;
+}
+.thirdsection .container .flex-box h3 span:nth-child(2) {
+  margin-right: 9px;
+}
+.thirdsection button {
+  width: 150px;
+  height: 46px;
+  font-size: 14px;
+  margin: 40px 0px 80px 280px;
+}
+
+ /* Fourth-Section Styling */
+ .fourth-section {
+  height: 550px;
+  background: #ffffff;
+}
+.fourth-section h2 {
+  font-size: 20px;
+  margin: 50px 0px 10px 0px;
+  text-align: center;
+}
+
+.fourth-section .container img {
+  width: 170px;
+  height: 120px;
+}
+.fourth-section .container .box {
+  padding: 10px 0px;
+}
+.fourth-section .container .box h3 {
+  font-size: 14px;
+  width: 180px;
+  height: 40px;
+  padding: 2px 10px;
+}
+.fourth-section .container .box p {
+  font-size: 8px;
+  width: 160px;
+  height: 27px;
+  padding: 0px 10px;
+}
+
+.fourth-section .container .box-middle img {
+  width: 320px;
+  height: 250px;
+}
+.fourth-section .container .box-middle h3 {
+  font-size: 16px;
+  width: 300px;
+  height: 40px;
+  padding: 2px 10px;
+  /* text-align: center; */
+}
+.fourth-section .container .flex-container-middle .box-middle {
+  padding: 10px 20px;
+}
+.fourth-section .container .box-middle p {
+  font-size: 14px;
+  width: 280px;
+  height: 27px;
+  padding: 0px 10px;
+  text-align: center;
+}
+/* Fifth-Section Styling */
+.fifth-section {
+  height: 650px;
+}
+
+.fifth-section .container h2 {
+  font-size: 30px;
+  width: 350px;
+  height: 80px;
+  text-align: center;
+}
+.fifth-section .container p {
+  font-size: 14px;
+  width: 380px;
+  height: 20px;
+  margin: 10px 0px;
+  text-align: center;
+}
+.fifth-section .container textarea {
+  width: 500px;
+  height: 58px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.fifth-section .container textarea:nth-child(3) {
+  width: 500px;
+  height: 215px;
+}
+.fifth-section .container img {
+  width: 280px;
+  height: 260px;
+  margin-top: 30px;
+}
+/* Footer Styling */
+footer {
+  background-color: #1ac073;
+  height: 200px;
+}
+
+footer .footer .first h1 {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+footer .footer .middle a {
+  font-size: 14px;
+  padding: 0px 20px;
+  margin: 20px 0px;
+}
+footer .footer .last img {
+  padding: 0px 5px;
+  margin: 20px 0px;
+  height: 25px;
+  width: 35px;
+}
+footer .foot-end {
+  margin: 0px 10px;
+}
+footer .foot-end p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+}
+
+@media screen and (max-width: 880px) {
+/* Fifth-Section Styling */
+.fifth-section {
+  height: 650px;
+}
+
+.fifth-section .container h2 {
+  font-size: 30px;
+  width: 350px;
+  height: 80px;
+  text-align: center;
+}
+.fifth-section .container p {
+  font-size: 14px;
+  width: 380px;
+  height: 20px;
+  margin: 10px 0px;
+  text-align: center;
+}
+.fifth-section .container textarea {
+  width: 300px;
+  height: 58px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.fifth-section .container textarea:nth-child(3) {
+  width: 300px;
+  height: 215px;
+}
+.fifth-section .container img {
+  width: 280px;
+  height: 260px;
+  margin-top: 30px;
+}
+}
+@media screen and (max-width: 749px) {
+   /* Header-Styling */
+   .firstsection {
+    background-color: #1ac073;
+    height: 650px;
+  }
+  .firstsection header {
+    margin: 0px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .firstsection header .first h1 {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .firstsection header .middle a {
+    font-size: 14px;
+    padding: 0px 0px;
+    margin: 20px 0px;
+  }
+  .firstsection header .middle a:hover {
+    color: #e7e3e3;
+  }
+  .firstsection header .last img {
+    margin: 20px 0px;
+    height: 12px;
+  }
+   /* Main Styling */
+   .firstsection main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+   /* Second-Section Styling */
+   .secondsection .box {
+    margin: 0px 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .secondsection .box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .secondsection .box .buttons button {
+    width: 72px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .secondsection .box .buttons button:nth-child(1) {
+    width: 50px;
+    color: #000000;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .secondsection .box .buttons button:nth-child(5) {
+    border-radius: 0px 5px 5px 0px;
+  }
+  .secondsection .box select {
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  /* Third-Section Styling */
+  .thirdsection {
+    background-color: #f7f8fa;
+    height: 1000px;
+  }
+  .thirdsection .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .thirdsection .container .flex-container-up {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .thirdsection .container .flex-container-down {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .thirdsection .container .flex-box {
+    margin: 10px;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .thirdsection .container .flex-box > img {
+    width: 220px;
+    height: 180px;
+  }
+  .thirdsection .container .flex-box h2 {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .thirdsection .container .flex-box h2 span {
+    margin-left: 70px;
+    font-size: 14px;
+  }
+  .thirdsection .container .flex-box h3 {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .thirdsection .container .flex-box h3 span {
+    background: #bebebe;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .thirdsection .container .flex-box h3 span:nth-child(2) {
+    margin-right: 70px;
+  }
+  .thirdsection button {
+    width: 150px;
+    height: 46px;
+    font-size: 14px;
+    margin: 40px 0px 80px 100px;
+  }
+   /* Fourth-Section Styling */
+   .fourth-section {
+    height: 1200px;
+    background: #ffffff;
+  }
+  .fourth-section h2 {
+    font-size: 20px;
+    margin: 50px 0px 10px 0px;
+    text-align: center;
+  }
+  .fourth-section .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fourth-section .container .flex-container {
+    display: flex;
+    margin-left: 10px;
+    overflow: hidden;
+  }
+
+  .fourth-section .container img {
+    width: 220px;
+    height: 180px;
+  }
+  .fourth-section .container .box {
+    padding: 10px 20px;
+  }
+  .fourth-section .container .box h3 {
+    font-size: 14px;
+    width: 220px;
+    height: 40px;
+    padding: 2px 10px;
+  }
+  .fourth-section .container .box p {
+    font-size: 12px;
+    width: 200px;
+    height: 27px;
+    padding: 20px 10px;
+  }
+
+  .fourth-section .container .box-middle img {
+    width: 480px;
+    height: 360px;
+  }
+  .fourth-section .container .box-middle h3 {
+    font-size: 18px;
+    width: 400px;
+    height: 40px;
+    padding: 2px 20px;
+    /* text-align: center; */
+  }
+  .fourth-section .container .flex-container-middle .box-middle {
+    padding: 10px 20px;
+  }
+  .fourth-section .container .box-middle p {
+    font-size: 14px;
+    width: 320px;
+    height: 27px;
+    padding: 0px 30px;
+    text-align: left;
+  }
+
+  /* Fifth-Section Styling */
+  .fifth-section {
+    height: 850px;
+  }
+  .fifth-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+    overflow: hidden;
+  }
+  .fifth-section .container h2 {
+    font-size: 30px;
+    width: 450px;
+    height: 55px;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .fifth-section .container p {
+    font-size: 14px;
+    width: 400px;
+    height: 20px;
+    margin: 10px 30px;
+    text-align: center;
+  }
+  .fifth-section .container textarea {
+    width: 450px;
+    height: 58px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .fifth-section .container textarea:nth-child(3) {
+    width: 450px;
+    height: 215px;
+  }
+  .fifth-section .container img {
+    width: 350px;
+    height: 300px;
+    margin-top: 30px;
+  }
+  /* Footer Styling */
+  footer {
+    background-color: #1ac073;
+    height: 200px;
+  }
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 5px 10px;
+    overflow: hidden;
+  }
+
+  footer .footer .first h1 {
+    font-size: 30px;
+    margin: 20px 0px;
+  }
+  footer .footer .middle a {
+    font-size: 14;
+    padding: 0px 20px;
+    margin: 20px 0px;
+  }
+  footer .footer .last img {
+    padding: 0px 5px;
+    margin: 20px 0px;
+    height: 25px;
+    width: 35px;
+  }
+  footer .foot-end {
+    margin: 0px 10px;
+  }
+  footer .foot-end p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
 @media screen and (max-width: 470px) {
   /* Header-Styling */
   .firstsection {
@@ -523,12 +1024,14 @@ footer .foot-end p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   .thirdsection .container .flex-container-down {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   .thirdsection .container .flex-box {
     margin: 10px;
@@ -537,7 +1040,7 @@ footer .foot-end p {
     border-radius: 0px 0px 10px 10px;
   }
   .thirdsection .container .flex-box > img {
-    width: 160px;
+    width: 150px;
     height: 130px;
   }
   .thirdsection .container .flex-box h2 {
@@ -545,7 +1048,7 @@ footer .foot-end p {
     margin-left: 5px;
   }
   .thirdsection .container .flex-box h2 span {
-    margin-left: 14px;
+    margin-left: 10px;
     font-size: 14px;
   }
   .thirdsection .container .flex-box h3 {
@@ -558,7 +1061,7 @@ footer .foot-end p {
     border-radius: 5px;
   }
   .thirdsection .container .flex-box h3 span:nth-child(2) {
-    margin-right: 14px;
+    margin-right: 9px;
   }
   .thirdsection button {
     width: 150px;
@@ -585,10 +1088,11 @@ footer .foot-end p {
   .fourth-section .container .flex-container {
     display: flex;
     margin-left: 10px;
+    overflow: hidden;
   }
 
   .fourth-section .container img {
-    width: 160px;
+    width: 150px;
     height: 120px;
   }
   .fourth-section .container .box {
@@ -608,7 +1112,7 @@ footer .foot-end p {
   }
 
   .fourth-section .container .box-middle img {
-    width: 330px;
+    width: 320px;
     height: 250px;
   }
   .fourth-section .container .box-middle h3 {
@@ -639,6 +1143,7 @@ footer .foot-end p {
     align-items: center;
     justify-content: center;
     padding: 50px 10px;
+    overflow: hidden;
   }
   .fifth-section .container h2 {
     font-size: 20px;
@@ -659,7 +1164,7 @@ footer .foot-end p {
     border-radius: 10px;
     font-size: 12px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 20px;
     padding: 20px;
   }
   .fifth-section .container textarea:nth-child(3) {
@@ -683,6 +1188,7 @@ footer .foot-end p {
     align-items: center;
     justify-content: center;
     margin: 50px 0px 5px 10px;
+    overflow: hidden;
   }
 
   footer .footer .first h1 {
